@@ -59,7 +59,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+        System.out.println("第一次修改在这里");
         e_phone = (EditText) findViewById(R.id.editText1);
         e_pwd = (EditText) findViewById(R.id.editText2);
         btn_login = (Button) findViewById(R.id.button1);
